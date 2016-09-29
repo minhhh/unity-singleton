@@ -17,6 +17,7 @@ public class SimpleSingleton<T> : BaseMonoBehaviour where T : SimpleSingleton<T>
     {
         if (instance != null) {
             Assert.IsNull (instance, "Instance is not null. Please call CreateInstance once only");
+            return instance;
         }
 
         GameObject go = new GameObject (typeof(T).Name);
