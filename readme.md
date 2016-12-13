@@ -1,6 +1,6 @@
 # Unity Singleton
 
-A simple implementation of the singleton pattern with consideration for practical real usecases.
+A simple implementation of the singleton pattern with consideration for practical usecases.
 
 ## Usage
 Simply create your singleton class by inheriting from `SimpleSingleton` and call `CreateInstance` like so:
