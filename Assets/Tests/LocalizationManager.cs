@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using USingleton;
 
-public class LocalizationManager : SimpleSingleton <LocalizationManager>
+public class LocalizationManager : GameSingleton <LocalizationManager>
 {
     protected override void OnCreated ()
     {

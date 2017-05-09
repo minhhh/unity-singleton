@@ -3,7 +3,7 @@
 A simple implementation of the singleton pattern with consideration for practical usecases.
 
 ## Usage
-Simply create your singleton class by inheriting from `SimpleSingleton` and call `CreateInstance` like so:
+Simply create your singleton class by inheriting from `GameSingleton` and call `CreateInstance` like so:
 
 ```
     SoundManager.CreateInstance ();

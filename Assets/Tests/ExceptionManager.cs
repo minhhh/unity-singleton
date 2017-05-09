@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
+using USingleton;
 
-public class ExceptionManager : SimpleSingleton <ExceptionManager>
+public class ExceptionManager : GameSingleton <ExceptionManager>
 {
     protected override void OnCreated ()
     {

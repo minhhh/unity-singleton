@@ -1,7 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
+using USingleton;
+using USingleton;
 
-public class SoundManager : SimpleSingleton <SoundManager>
+public class SoundManager : GameSingleton <SoundManager>
 {
     protected override void OnCreated ()
     {
