@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
-using System;
 using UnityEngine.Assertions;
 
 namespace USingleton
 {
     /// <summary>
     /// Game singleton will be initialized once in the game. It persists when scenes are loaded and reloaded
+    /// It is recommended to replaced MonoBehaviour with your BaseBehaviour class
     /// </summary>
     public class GameSingleton<T> : MonoBehaviour where T : GameSingleton<T>
     {
