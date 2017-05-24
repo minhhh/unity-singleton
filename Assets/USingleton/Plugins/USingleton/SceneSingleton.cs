@@ -16,9 +16,7 @@ namespace USingleton
                 if (instance == null) {
                     instance = FindObjectOfType<T> ();
 
-                    if (instance == null) {
-                        Assert.IsNull (instance, "Instance is null. You must call this in the correct scene setup");
-                    }
+                    Assert.IsNotNull (instance, "Instance should not be null. You must call this in the correct scene setup");
                 }
 
                 return instance;

@@ -1,6 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
-using USingleton;
 using USingleton;
 
 public class SoundManager : GameSingleton <SoundManager>

@@ -9,6 +9,7 @@ public class Game : MonoBehaviour
         ExceptionManager.CreateInstance ();
         LocalizationManager.CreateInstance ();
         SoundManager.CreateInstance ();
+        SceneManager.Instance.SomeMethod ();
     }
 
     public void DestroySingletons ()

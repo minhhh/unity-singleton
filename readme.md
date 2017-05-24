@@ -34,6 +34,10 @@ To include Unity Singleton into your project, you can use `npm` method of unity 
 
 ## Changelog
 
+**0.0.2**
+
+* Fix bugs
+
 **0.0.1**
 
 * Add `GameSingleton`, `SceneSingleton`

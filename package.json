@@ -1,6 +1,6 @@
 {
   "name": "unity-singleton",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple implementation of the singleton pattern with consideration for practical usecases",
   "main": "index.js",
   "files": [
